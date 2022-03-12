@@ -9,7 +9,7 @@ let pergunta2='Viu uma pegada nas cinzas da delegacia? ';
 let pergunta3='Desvendou a charada do recado deixado na casa do prefeito? ';
 let pergunta4='Encontrou as gravações da câmera de segurança da delegacia? ';
 let pergunta5='Perguntou para o prefeito qual é o lugar favorito da filha dele? ';
-
+;
 while(pergunta1 != 'sim' && pergunta1 != 'nao') {
     console.log('Você encontrou a digital na escola? ');
     pergunta1=prompt('Responda com sim ou nao: ');
