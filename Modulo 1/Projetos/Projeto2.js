@@ -1,5 +1,4 @@
 const prompt = require ('prompt-sync')();
-
 const figlet = require ('figlet');
 
 do{
