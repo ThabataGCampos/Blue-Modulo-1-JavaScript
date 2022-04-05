@@ -73,6 +73,7 @@ if (genero == "1") {
 }
 while (genero > 3 || genero == 0 || isNaN(genero)) {
   console.log("Escolha inválida. Escolha: [1] ele/dele [2] ela/dela [3] elu/delu. ");
+  console.clear();
   genero = +prompt();
   console.log();
 }
