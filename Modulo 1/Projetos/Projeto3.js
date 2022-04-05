@@ -85,7 +85,7 @@ prompt("Tecle ENTER para continuar. ".bgRed);
 
 // Variável para contar a madeira
 let dias = 0;
-//O jogo roda até o for ser false, se encontrar a gasolina, acaba
+//O jogo roda até o for ser true, se encontrar a gasolina, acaba
 for (; player.gasolina === 0;) {
   console.clear();
   //ALEATÓRIO
