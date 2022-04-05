@@ -62,6 +62,7 @@ function status(player) {
 player.nome = prompt("Qual o seu nome? ");
 let genero = prompt("Com qual pronome você se identifica? [1] ele/dele [2] ela/dela [3] elu/delu. ");
 console.clear();
+
 let oae = "";
 // para a alteração de genero em algumas palavras
 if (genero == "1") {
